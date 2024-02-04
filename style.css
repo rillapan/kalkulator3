@@ -1,0 +1,56 @@
+body {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.card {
+  background-color: blanchedalmond;
+  width: 290px;
+  height: 500px;
+  border: 20px;
+  box-shadow: inset 5px 5px 12px #fff 5px 5px 12px rgb(0, 0, 16);
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+}
+
+.display {
+  background-color: rgb(182, 169, 195);
+  border-radius: 10%;
+  box-shadow: inset 5px 5px 12px #cb4343 5px 5px 12px rgb(0, 0, 16 #fff);
+  border: none;
+}
+
+.button {
+  border-radius: 100%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background-color: chartreuse;
+}
+
+.button-kanan {
+  border-radius: 100%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background-color: rgb(245, 120, 19);
+}
+
+.button-hasil {
+  margin-right: 50;
+  height: 50px;
+  border-radius: 20%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background-color: rgb(252, 6, 6);
+}
